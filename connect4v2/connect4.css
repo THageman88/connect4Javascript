@@ -1,0 +1,27 @@
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px rgb(0, 1, 78);
+}
+
+td {
+  background-color: aquamarine;
+}
+/* pieces are div within game table cells: draw as colored circles */
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+/* column-top is table row of clickable areas for each column */
+
+#column-top td {
+  border: dashed 1px rgba(166, 248, 241, 0.685);
+}
+
+#column-top td:hover {
+  background-color: rgba(170, 19, 163, 0.425);
+}
